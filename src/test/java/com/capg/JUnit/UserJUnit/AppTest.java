@@ -1,41 +1,20 @@
 package com.capg.JUnit.UserJUnit;
-import static org.junit.Assert.*;
-import java.util.*;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+
 import org.junit.BeforeClass;
 import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.junit.runners.Parameterized;
 
-@RunWith(Parameterized.class)
+
 public class AppTest {
-private boolean mailValid;
-private String Email;
 
     static App app=null;
 
-    public AppTest(String Email,boolean mailValid) {
-        super();
-        this.Email=Email;
-        this.mailValid=mailValid;
-
-    }
 
 
     @BeforeClass
     public static void setUp(){
     app=new App();
-    }
-
-    @Parameterized.Parameters
-    public static Collection<Object[]> input() {
-        return Arrays.asList(new Object[][] {{"abc@yahoo.com", true}, {"abc-100@yahoo.com",true},
-                {"abc.100@yahoo.com",true},
-                {"abc111@abc.com",true},
-                {"ac.100@abc.com.au",true},
-                {"abc@1.com",true},
-                {"abc@gmail.com.com",true},
-                {"abc+100@gmail.com",true}});
-
     }
     @Test
     public void givenName_WhenProper_ShouldReturnTrue()
@@ -48,7 +27,7 @@ private String Email;
     @Test
     public void givenEmail_WhenProper_ShouldReturnTrue()
     {
-        assertTrue("Invalid Email",app.validateEmail(Email));
+        assertTrue("Invalid Email",app.validateEmail("nishantkr0210@gmail.com"));
         assertFalse("Valid Email",app.validateEmail("nishajh@hj.cj65"));
     }
 
