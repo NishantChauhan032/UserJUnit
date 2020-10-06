@@ -15,7 +15,7 @@ public class App {
 		return validate;
 	}
 	public boolean validateEmail(String email) {
-		boolean validate = Pattern.matches("^[A-Za-z0-9]+([.+-][A-Za-z0-9-]+)?@[A-Za-z0-9-]+(\\.[A-Za-z0-9]+)?(\\.[A-Za-z]{2,})$", email);
+		boolean validate = Pattern.matches("^[A-Za-z0-9]+([.+-][A-Za-z0-9-]+)?@[A-Za-z0-9-]+(\\.[A-Za-z0-9]+)?(\\.[A-Za-z]{2,})$",email);
 		return validate;
 	}
 	public boolean validateMobile(String mobile) {
@@ -23,7 +23,7 @@ public class App {
 		return validate;
 	}
 	public boolean validatePassword(String password) {
-		boolean validate = Pattern.matches("(?=^.{8,}$)(?=.*[A-Z])(?=.*[0-9])[a-zA-Z0-9]*([^(A-Za-z0-9)]{1})[0-9a-zA-Z]*", password);
+		boolean validate = Pattern.matches("(?=^.{8,}$)(?=.*[A-Z])(?=.*[0-9])[a-zA-Z0-9]*([^(A-Za-z0-9)]{1})[0-9a-zA-Z]*",password);
 		return validate;
 	}
 
