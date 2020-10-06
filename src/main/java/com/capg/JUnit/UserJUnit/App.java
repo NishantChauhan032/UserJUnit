@@ -15,11 +15,6 @@ public class App {
 		return validate;
 	}
 
-	public boolean validateEmail(String email) {
-		boolean validate = Pattern.matches("^[A-Za-z0-9]+([.+-][A-Za-z0-9-]+)?@[A-Za-z0-9-]+(\\.[A-Za-z0-9]+)?(\\.[A-Za-z]{2,})$",email);
-		return validate;
-	}
-
 	public static void main(String[] args) {
 		App newUser = new App();
 
@@ -36,14 +31,6 @@ public class App {
 			LOG.info("Invalid Entry. Enter the Last Name:");
 			lastName = sc.next();
 		}
-
-		LOG.info("Enter the Email:");
-		String email = sc.next();
-		while (!(newUser.validateEmail(email))) {
-			LOG.info("Invalid Entry. Enter the Email:");
-			email = sc.next();
-		}
-        
 
 	}
 
