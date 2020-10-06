@@ -20,11 +20,6 @@ public class App {
 		return validate;
 	}
 
-	public boolean validateMobile(String mobile) {
-		boolean validate = Pattern.matches("[0-9]{2}[ ][0-9]{10}", mobile);
-		return validate;
-	}
-
 	public static void main(String[] args) {
 		App newUser = new App();
 
@@ -49,13 +44,6 @@ public class App {
 			email = sc.next();
 		}
         
-		sc.nextLine();
-		LOG.info("Enter the Mobile Number:");
-		String mobile = sc.nextLine();
-		while (!(newUser.validateMobile(mobile))) {
-			LOG.info("Invalid Entry. Enter the Mobile Number:");
-			mobile = sc.nextLine();
-		}
 
 	}
 
