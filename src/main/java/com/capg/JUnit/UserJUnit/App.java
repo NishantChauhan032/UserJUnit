@@ -26,7 +26,7 @@ public class App {
 	}
 
 	public boolean validatePassword(String password) {
-		boolean validate = Pattern.matches("^(?=.*[A-Z])(?=.*[0-9]).{8,}$", password);
+		boolean validate = Pattern.matches("^(?=.*[A-Z]).{8,}$", password);
 		return validate;
 	}
 
