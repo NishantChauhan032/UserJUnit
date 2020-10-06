@@ -23,3 +23,20 @@ INFO  | 2020-10-05 22:45:08 | [main] UserJUnit.App (App.java:51) - Enter the Ema
 INFO  | 2020-10-05 22:45:13 | [main] UserJUnit.App (App.java:59) - Enter the Mobile Number:
 INFO  | 2020-10-05 22:45:18 | [main] UserJUnit.App (App.java:66) - Enter the Password:
 INFO  | 2020-10-05 22:45:36 | [main] UserJUnit.App (App.java:69) - Invalid Entry. Enter the Password:
+INFO  | 2020-10-06 22:50:46 | [main] UserJUnit.App (App.java:36) - Enter the First Name:
+INFO  | 2020-10-06 22:50:56 | [main] UserJUnit.App (App.java:46) - Enter the Last Name:
+INFO  | 2020-10-06 22:51:00 | [main] UserJUnit.App (App.java:56) - Enter the Email:
+INFO  | 2020-10-06 22:51:02 | [main] UserJUnit.App (App.java:67) - Enter the Mobile Number:
+INFO  | 2020-10-06 22:51:04 | [main] UserJUnit.App (App.java:77) - Enter the Password:
+INFO  | 2020-10-06 22:53:40 | [main] UserJUnit.App (App.java:36) - Enter the First Name:
+INFO  | 2020-10-06 22:53:58 | [main] UserJUnit.App (App.java:46) - Enter the Last Name:
+INFO  | 2020-10-06 22:53:59 | [main] UserJUnit.App (App.java:56) - Enter the Email:
+INFO  | 2020-10-06 22:54:01 | [main] UserJUnit.App (App.java:67) - Enter the Mobile Number:
+INFO  | 2020-10-06 22:54:02 | [main] UserJUnit.App (App.java:77) - Enter the Password:
+INFO  | 2020-10-06 22:54:03 | [main] UserJUnit.App (App.java:86) - Exceptions Handled Successfully
+INFO  | 2020-10-07 00:00:06 | [main] UserJUnit.App (App.java:33) - Enter the First Name:
+INFO  | 2020-10-07 00:00:09 | [main] UserJUnit.App (App.java:43) - Enter the Last Name:
+INFO  | 2020-10-07 00:00:11 | [main] UserJUnit.App (App.java:53) - Enter the Email:
+INFO  | 2020-10-07 00:00:12 | [main] UserJUnit.App (App.java:64) - Enter the Mobile Number:
+INFO  | 2020-10-07 00:00:14 | [main] UserJUnit.App (App.java:74) - Enter the Password:
+INFO  | 2020-10-07 00:00:16 | [main] UserJUnit.App (App.java:83) - Exceptions Handled Successfully
