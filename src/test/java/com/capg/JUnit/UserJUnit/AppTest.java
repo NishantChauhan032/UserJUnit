@@ -39,29 +39,29 @@ private String Email;
     @Test
     public void givenName_WhenProper_ShouldReturnTrue()
     {
-        assertTrue("Invalid Name",app.validateName("Nishant"));
-        assertFalse("Valid Name",app.validateName("nishh"));
+        assertTrue("Invalid Name",app.validateName.validate("Nishant"));
+        assertFalse("Valid Name",app.validateName.validate("nishh"));
 
     }
 
     @Test
     public void givenEmail_WhenProper_ShouldReturnTrue()
     {
-        assertTrue("Invalid Email",app.validateEmail(Email));
-        assertFalse("Valid Email",app.validateEmail("nishajh@hj.cj65"));
+        assertTrue("Invalid Email",app.validateEmail.validate(Email));
+        assertFalse("Valid Email",app.validateEmail.validate("nishajh@hj.cj65"));
     }
 
     @Test
     public void givenMobile_WhenProper_ShouldReturnTrue()
     {
-        assertTrue("Invalid Mobile No",app.validateMobile("91 9835386977"));
-        assertFalse("Valid Mobile",app.validateMobile("86784"));
+        assertTrue("Invalid Mobile No",app.validateMobile.validate("91 9835386977"));
+        assertFalse("Valid Mobile",app.validateMobile.validate("86784"));
     }
     @Test
     public void givenPassword_WhenProper_ShouldReturnTrue()
     {
-        assertTrue("Invalid Password",app.validatePassword("Wuyruy35@"));
-        assertFalse("Valid Password",app.validatePassword("86784"));
+        assertTrue("Invalid Password",app.validatePassword.validate("Wuyruy35@"));
+        assertFalse("Valid Password",app.validatePassword.validate("86784"));
     }
 
 
